@@ -1,0 +1,19 @@
+{
+  "name": "react-express-file-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
